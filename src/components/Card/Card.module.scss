@@ -1,0 +1,47 @@
+.cardItem {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  transition: 0.2s ease-in-out;
+  
+  img {
+    cursor: pointer;
+  }
+
+  &Favorite {
+    position: absolute;
+    cursor: pointer;
+  }
+
+  h5 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  &:hover {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  &Bottom {
+
+    &Btn {
+      margin-top: 5px;
+      button {
+        width: 100%;
+        padding: 3%;
+        border: none;
+        border-radius: 4px;
+        background-color: #2B2B2B;
+        color: #ffffff;
+        transition: 0.15s ease-in-out;
+        
+        &:hover {
+          background-color: #70C812;
+        }
+      }
+    }
+  }
+}

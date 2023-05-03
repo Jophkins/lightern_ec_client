@@ -1,0 +1,26 @@
+.item {
+  background: #EAEFF2;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: darkcyan;
+  cursor: pointer;
+}
+
+.content {
+  color: darkblue;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.show {
+  height: auto;
+  max-height: 300px;
+  transition: all 0.5s cubic-bezier(1,0,1,0);
+}

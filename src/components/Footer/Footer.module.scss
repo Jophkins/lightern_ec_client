@@ -1,0 +1,33 @@
+.footer {
+  position: relative;
+  padding: 40px;
+  height: auto;
+  background-color: #000000;
+  color: #ffffff;
+
+  .title {
+    font-size: 22px;
+    color: #008000;
+  }
+
+  .footerDesc {
+    margin-top: 10px;
+
+    a {
+      color: #ffffff;
+      &:hover {
+        color: #008000;
+      }
+    }
+
+    .lowDesc {
+      width: 90%;
+    }
+
+    .license {
+      margin: 10px 0;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

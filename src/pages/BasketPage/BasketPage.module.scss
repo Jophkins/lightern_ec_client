@@ -1,0 +1,40 @@
+
+.cartEmpty {
+  display: block;
+  margin: 16% 0;
+}
+
+.title {
+  padding: 22px;
+  background-color: #EAEFF2;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+}
+
+.desc {
+  font-size: 24px;
+}
+
+.total {
+
+  .totalPrice {
+    font-weight: 700;
+  }
+
+  button {
+    margin-right: 10px;
+    padding: 2% 8%;
+    border: none;
+    border-radius: 5px;
+    background-color: #70C812;
+    color: #ffffff;
+    transition: 0.15s ease-in-out;
+
+    &:hover {
+      background-color: #2B2B2B;
+    }
+  }
+}

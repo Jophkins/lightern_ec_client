@@ -1,0 +1,90 @@
+.wrapper {
+  margin: 2% 0;
+
+}
+
+.backBtn {
+  border: none;
+  border-bottom: 1px solid #000000;
+  background-color: #ffffff;
+}
+
+.leftSide {
+  border: 2px solid #cccccc;
+}
+
+.rightSide {
+
+  &Title {
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  &Price {
+
+    span {
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .numberInput {
+      background-color: #eee;
+      vertical-align: top;
+      outline: none;
+      padding: 0;
+      height: 40px;
+      line-height: 40px;
+      text-indent: 10px;
+      display: inline-block;
+      width: 50px;
+      box-sizing: border-box;
+      border: 1px solid #ddd;
+      font-size: 14px;
+      border-radius: 3px;
+    }
+
+    .numberInput:focus {
+      outline: 2px solid blue;
+    }
+
+    &Btn {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+
+      input {
+        margin-right: 10px;
+        width: 40px;
+      }
+
+      button {
+        margin-right: 10px;
+        padding: 1% 8%;
+        border: none;
+        border-radius: 5px;
+        background-color: #70C812;
+        color: #ffffff;
+        transition: 0.15s ease-in-out;
+
+        &:hover {
+          background-color: #2B2B2B;
+        }
+      }
+    }
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+}
